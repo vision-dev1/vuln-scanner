@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Vulnerability Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" alt="Vulnerability Scanner Logo" class="logo">
+                <h1>Website Vulnerability Scanner</h1>
+            </div>
+            <p class="tagline">Advanced Security Analysis Tool</p>
+        </header>
+        
+        <main>
+            <div class="scan-section">
+                <div class="input-group">
+                    <input type="text" id="urlInput" placeholder="Enter website URL (e.g., https://example.com)" autocomplete="off">
+                    <button id="scanButton" class="scan-button">Scan Website</button>
+                </div>
+                
+                <div class="permission-checkbox">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="permissionCheckbox">
+                        <span class="checkmark"></span>
+                        I have permission to scan this website
+                    </label>
+                </div>
+                
+                <div class="advanced-options">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="advancedCheckbox">
+                        <span class="checkmark"></span>
+                        Enable advanced modules (nmap/ZAP)
+                    </label>
+                    <p class="advanced-warning">Warning: Advanced modules require additional confirmation</p>
+                </div>
+            </div>
+            
+            <div class="progress-section hidden">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Scanning — 0%</p>
+                </div>
+            </div>
+            
+            <div class="results-section hidden" id="resultsSection">
+                <h2>Scan Results</h2>
+                <div id="resultsContainer"></div>
+            </div>
+        </main>
+        
+        <footer>
+            <p class="disclaimer">
+                This Vulnerability Scanner Tool is provided solely for educational, research, and defensive security purposes. By using this Tool you agree that you will only run it against systems you own or systems for which you have explicit, written permission to test. The author, <a href="https://visionkc.com.np" target="_blank" class="author-link">Vision</a> 
+                and any contributors shall not be held liable for any damage, loss, legal claims, or misuse arising from use of this Tool. Use at your own risk and in compliance with all applicable laws and policies.
+            </p>
+            <p class="made-by">Made by <a href="https://visionkc.com.np" target="_blank" class="author-link cursive">Vision</a></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
