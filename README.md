@@ -28,19 +28,6 @@ If you do not accept these terms, do not use this project.
 - Easy to run on Windows, Linux, or macOS
 - Designed for learning and experimentation
 
-## Repository contents
-Vuln-scanner/
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt
-├── index.html
-├── styles.css
-├── script.js
-├── logo.png
-├── scanner.py
-├── run.sh
-├── run.bat
 
 ## Requirements
 
@@ -154,5 +141,4 @@ This project is distributed under the terms in LICENSE. (MIT LICENSE)
 ## Contact
 
 Author: Vision
-GitHub: https://github.com/yourusername (replace with your actual handle)
-Email: (optional — add if you want public contact)
+GitHub: https://github.com/vision-dev1
